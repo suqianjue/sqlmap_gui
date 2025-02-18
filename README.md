@@ -19,7 +19,7 @@ SQLMap 是一款自动化的 SQL 注入漏洞测试工具，它能帮助安全�
 ## 安装步骤
 
 1. **下载工具**
-    前往 [https://github.com/suqianjue/tools/releases/download/v1.0/sqlmap_v1.0.jar](https://github.com/suqianjue/tools/releases) 下载双击运行即可使用。
+    前往 [https://github.com/suqianjue/tools/releases](https://github.com/suqianjue/tools/releases) 下载双击运行即可使用。
 2. **安装依赖**
     确保您的机器已安装 JDK 1.8+ 版本。可以通过以下命令检查 JDK 版本：
 
