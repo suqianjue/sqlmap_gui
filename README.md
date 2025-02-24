@@ -26,30 +26,33 @@ SQLMap 是一款自动化的 SQL 注入漏洞测试工具，它能帮助安全�
     java -version
 
 ## 工具截图
-双击jar包打开程序如图所示，会在当前文件夹生成一个config.txt文件
-![image](https://github.com/user-attachments/assets/d3777f51-33fb-4e38-864f-a69bff177a6e)
+双击jar包打开程序如图所示，会在当前文件夹生成一个config.properties的配置文件
+![image](https://github.com/user-attachments/assets/aae3db97-0efa-492f-b71c-58a8b46eebd2)
 
-config.txt文件里面记录的是sqlmap路径和代理信息，可在工具中导入，也可手动填写
-![image](https://github.com/user-attachments/assets/78209e02-4935-48be-a673-c8ed2758e42e)
+
+config.properties文件里面记录的是sqlmap路径和代理信息，可在工具中导入，也可手动填写
+![image](https://github.com/user-attachments/assets/89f46e4d-ff91-4498-b669-290600e45180)
 
 文件->导入sqlmap，选择sqlmap文件夹就可以了(不用选择具体文件)
-![image](https://github.com/user-attachments/assets/327a82e3-0a04-4c36-8bc4-6b2ab348fba4)
+![image](https://github.com/user-attachments/assets/d685fb2c-292c-490e-ad6c-ed798306c085)
 
 设置->代理，可以挂代理，工具自带测试代理是否可用功能
-![image](https://github.com/user-attachments/assets/48f40151-9236-4361-adc1-258bf97783eb)
+![image](https://github.com/user-attachments/assets/891dbd92-f716-47bc-8376-ab5c02a52d0e)
+
 
 脚本文件会自动获取sqlmap文件中tamper文件夹，也可以手动添加脚本到里面
-![image](https://github.com/user-attachments/assets/7334b131-395d-4a8d-bcb7-4b05d10d37e2)
+![image](https://github.com/user-attachments/assets/6255cf57-2c0b-48a0-819f-1ecd82a7130c)
 
 自定义参数在GET请求下就是sqlmap的 -p id ，POST请求就是sqlmap的 -data id=1，GET/POST请求可在url那一行最左边选
 测试级别、风险级别、线程数、库、表、列都可以自定义，还有一些可自选的功能项
 选择完后点击预览按钮，则会生成sqlmap语句在预览框中显示，可以自定义调整，修改、删除、添加
 然后点击start就是开始运行
 **注：必须先点预览，预览框中出现了命令才能点start运行**
-![image](https://github.com/user-attachments/assets/c43043ee-aaeb-4248-a019-27c0f34a8165)
+![image](https://github.com/user-attachments/assets/83e4b346-4141-4d97-a2c3-0198f49c202a)
 
 关于抓包跑，可直接在burp抓包，复制请求包粘贴到文本框中，在需要测试的地方加上 * 点击start即可
 其他地方不需要改，可以选择需要的脚本和一些功能项等等
 **注：当预览框和抓包跑文本框都有信息时，优先会运行预览框命令**
-![image](https://github.com/user-attachments/assets/fa9142e4-2ca3-474d-8481-0aed7b68dbcd)
+![image](https://github.com/user-attachments/assets/3ebf9761-826e-420f-a2db-90433fe2ef12)
+
 
